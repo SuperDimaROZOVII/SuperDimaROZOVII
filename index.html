@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="./main.js" defer></script>
+    <title>Music maker</title>
+</head>
+<body>
+    <input type="text" id="test">
+     <button  id="play" >show</button> 
+
+
+
+
+    <audio autoplay="autoplay" id="do"><source src="./sounds/zvuk-notyi-do.mp3"></audio>
+    <audio autoplay="autoplay" id="fa"><source src="./sounds/zvuk-notyi-fa.mp3"></audio>
+    <audio autoplay="autoplay" id="lya"><source src="./sounds/zvuk-notyi-lya.mp3"></audio>
+    <audio autoplay="autoplay" id="mi"><source src="./sounds/zvuk-notyi-mi.mp3"></audio>
+    <audio autoplay="autoplay" id="re"><source src="./sounds/zvuk-notyi-re.mp3"></audio>
+    <audio autoplay="autoplay" id="si"><source src="./sounds/zvuk-notyi-si.mp3"></audio>
+    <audio autoplay="autoplay" id="sol"><source src="./sounds/zvuk-notyi-sol.mp3"></audio>
+
+<button onclick="record()">start recording for <input type="text" id="recordTime"> seconds</button>
+<!-- <button onclick="play()">play song, id: </button> -->
+<!--<input type="text" id="Songid"/><button onclick="test()">test</button> -->
+<!-- buttons -->
+<button id="doB"></button>
+<button id="reB"></button>
+<button id="miB"></button>
+<button id="faB"></button>
+<button id="solB"></button>
+<button id="lyaB"></button>
+<button id="siB"></button>
+ <!-- buttons end -->
+<p id="idOutput"></p>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
